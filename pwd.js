@@ -3,8 +3,6 @@ const path = function() {
 }
 const prompt = process.stdout.write('\nprompt > ')
 
-module.exports =  function() {
-  path();
-};
+module.exports =  path;
 
-module.exports.prompt = prompt;
+// module.exports.prompt = prompt;

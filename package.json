@@ -1,21 +1,37 @@
 {
+<<<<<<< HEAD
   "name": "nodeshell",
   "version": "1.0.0",
   "description": "node shell test package",
+=======
+  "name": "shell",
+  "version": "1.0.0",
+  "description": "",
+>>>>>>> c51ed21d9584db42bcb47b1fb27b7017cf4578f2
   "main": "bash.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/TomSinovich/node-shell.git"
+=======
+    "url": "git+https://github.com/kaiyue0329/node-shell.git"
+>>>>>>> c51ed21d9584db42bcb47b1fb27b7017cf4578f2
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/TomSinovich/node-shell/issues"
   },
   "homepage": "https://github.com/TomSinovich/node-shell#readme",
+=======
+    "url": "https://github.com/kaiyue0329/node-shell/issues"
+  },
+  "homepage": "https://github.com/kaiyue0329/node-shell#readme",
+>>>>>>> c51ed21d9584db42bcb47b1fb27b7017cf4578f2
   "dependencies": {
     "request": "^2.88.0"
   }

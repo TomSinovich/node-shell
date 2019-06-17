@@ -1,6 +1,7 @@
 const pwd = require('./pwd.js');
 const ls = require('./ls.js');
 const cat = require('./cat.js');
+const curl = require('./curl.js');
 
 process.stdout.write('prompt > ');
 
@@ -19,8 +20,11 @@ process.stdin.on('data', (data) => {
     case 'cat':
       cat(cmd.split(' ')[1]);
       break;
+    case 'curl':
+      curl(cmd.split(' ')[1]);
+      break;
     default:
       process.stdout.write('Did not recognize command: ' + cmd);
   }
-  process.stdout.write('\nprompt > ')
+  process.stdout.write('\nprompt > ');
 })
